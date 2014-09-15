@@ -40,8 +40,8 @@
   // Enforce use of single quotation marks for strings.
   "quotmark": "single",
 
-  // Enforce placing 'use strict' at the top function scope
-  "strict": true,
+  // Enforce placing 'use strict' at top of every file.
+  "globalstrict": true,
 
   // Prohibit use of explicitly undeclared variables.
   "undef": true,
@@ -55,5 +55,8 @@
    */
 
   // Suppress warnings about == null comparisons.
-  "eqnull": true
+  "eqnull": true,
+
+  // Dissallow use of ++ operator
+  "plusplus": true
 }
